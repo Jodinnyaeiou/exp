@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEVIN KAARL</title>
+    <link rel="shortcut icon" href="imagenes/favicon.jpg" type="image/x-icon">
+    <style>
+        #todo{ 
+        text-align: center;
+       }
+       a{
+        color: black;
+        text-decoration: none;
+       }
+       .icon{
+            width: 20px; 
+            height: 20px; 
+            display: inline-block; 
+            margin-right: 10px; 
+        }
+        .cabeza{
+            font-family:monospace;
+            position:sticky;
+            top:0;
+            background-color: white;
+            z-index: 10;
+        }
+        .imagenes{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            gap: 20px; 
+            max-width: 800px; 
+            position: absolute;
+            left: 300px;
+        }
+        .fotos{
+            width: 100%;
+            height: auto;
+           
+            transition: filter 0.3s ease; 
+            filter: blur(5px);
+        }
+        .fotos:hover{
+            filter: blur(0);
+        }
+        .redes{
+    display: flex; 
+    align-items: center; 
+    gap: 20px;
+    align-items: center;
+    position: absolute;
+    left: 574px;
+    top: 800px;
+}
+.redes img {
+    width: 48px; 
+    height: auto; 
+    border-radius: 60%; 
+    object-fit: cover;
+}
+.gal{
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+    <div id="todo">
+        <div class="cabeza">
+            <h1 style="font-size: 42px;" ><a href="index.html">KEVIN KAARL</a></h1>
+            
+            <h2> <img class="icon" src="imagenes/casa.jpg" alt="casa"><a href="index.html">INICIO</a>ㅤ<img class="icon" src="imagenes/lapiz.jpg" alt="lapiz"><a href="blog.html">BLOG</a>ㅤ<img class="icon" src="imagenes/galeria.jpg" alt="galeria"><a class="gal" href="galeria.html">GALERIA</a>ㅤ <img class="icon" src="imagenes/videos.jpg" alt="videos"><a href="videos.html">VIDEOS</a></h2>
+            <br>
+          </div>
+          <br>
+          <div class="imagenes">
+            <div><img class="fotos" src="imagenes/grabaciones.jpg" alt=""> Set de Grabacion</div>
+            <div><img class="fotos" src="imagenes/mariana.jpg" alt="">Con el Mariana</div>
+            <div><img class="fotos" src="imagenes/primer.jpg" alt="">Primer Album</div>
+            <div><img class="fotos" src="imagenes/novia.jpg" alt="">Enamorada</div>
+            <div><img class="fotos" src="imagenes/premm.jpg" alt="">Premio</div>
+            <div><img class="fotos" src="imagenes/hermano.jpg" alt="">Los Kaarls</div>
+          </div>
+          <div class="redes">
+            <a href="https://x.com/kevinkaarl"><img src="imagenes/tw.black.jpg" alt="twiter"></a><a href="https://www.facebook.com/KevinKaarl"><img src="imagenes/bf.black.jpg" alt="fb"></a>  <a href="https://www.tiktok.com/@kevinkaarloficial"><img src="imagenes/tiktok.black.jpg" alt="tik tok"></a> 
+            <a href="https://www.instagram.com/kevinkaarl/"><img src="imagenes/ig.black.jpg" alt="ig"></a>
+          </div>
+      
+          
+    </div>
+    
+</body>
+</html>
